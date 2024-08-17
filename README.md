@@ -5,7 +5,7 @@ This repository contains the MATLAB code for reproducing part of the numerical e
 
 ### Chapter 5 -- A low-memory Lanczos method with rational Krylov compression
 
-The folder `chap5` contains the code of the low-memory Krylov method `RKcompress_fAb` for computing $f(A) \textbf{b}$, which combines an outer Lanczos iteration with an inner rational Krylov subspace used to compress the basis, as well as the code for reproducing the numerical experiments in the chapter. This code was previously used in the preprint [1], and it is also available in the Github repository https://github.com/casulli/ratkrylov-compress-matfun, which also contains a block version.
+The folder `chap5` contains the code of the low-memory Krylov method `RKcompress_fAb` for computing $f(A) \mathbf{b}$, which combines an outer Lanczos iteration with an inner rational Krylov subspace used to compress the basis, as well as the code for reproducing the numerical experiments in the chapter. This code was previously used in the preprint [1], and it is also available in the Github repository https://github.com/casulli/ratkrylov-compress-matfun, which also contains a block version.
 
 #### Dependencies
 
@@ -17,7 +17,7 @@ There are no external dependencies for the main function `RKcompress_fAb`. The d
 
 ### Chapter 6 -- Rational Krylov methods for fractional diffusion problems on graphs
 
-The folder `chap6` contains code for solving a fractional diffusion equation on a graph, whose solution is given in the form $f(A) \textbf{b}$, with $f(z) = \exp(-t z^\alpha)$, with $t > 0$ and $\alpha \in $(0,1)$. The code employs desingularization techniques to speed up the convergence of Krylov subspace methods. The folder also includes the scripts for reproducing the figures and tables contained in the chapter. 
+The folder `chap6` contains code for solving a fractional diffusion equation on a graph, whose solution is given in the form $f(A) \mathbf{b}$, with $f(z) = \exp(-t z^\alpha)$, with $t > 0$ and $\alpha \in (0,1)$. The code employs desingularization techniques to speed up the convergence of Krylov subspace methods. The folder also includes the scripts for reproducing the figures and tables contained in the chapter. 
 
 #### Dependencies
 
